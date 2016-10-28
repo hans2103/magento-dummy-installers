@@ -6,13 +6,13 @@ if [ ! "$#" -eq 2 ]; then
 fi
 
 MAGE_ROOT=$1
-if [[ ! -d $MAGE_ROOT ]]; then
+if [ ! -d $MAGE_ROOT ]; then
 	echo "$MAGE_ROOT is not a directory"
 	exit 0;
 fi
 
 TREE_FILE=$2
-if [[ ! -f $TREE_FILE ]]; then
+if [ ! -f $TREE_FILE ]; then
 	echo "$TREE_FILE is not a file"
 	exit 0;
 fi
