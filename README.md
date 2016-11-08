@@ -18,3 +18,6 @@ Roadmap:
 
 v 0.1
 Create dummy products and a category tree
+
+# Remove all categories
+- https://gist.github.com/jklance/9664371
